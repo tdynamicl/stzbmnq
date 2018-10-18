@@ -1,0 +1,89 @@
+html {
+	background-color: #fcfcfc;
+	
+}
+
+nav {
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding: 0 1.2rem ;
+	background-color: white;
+	box-shadow: grey 0px 1px 2px 0px;
+	
+}
+
+
+.flexbox {
+    display: flex !important;
+    display: -o-flex !important;
+    display: -webkit-flex !important;
+    display: -ms-flex !important;
+    display: -moz-flex !important;
+}
+
+.flexbox.fd-c {
+	flex-direction: column;
+}
+
+.flexbox.fd-cr {
+	flex-direction: column-reverse;
+}
+
+.flexbox.fd-rr {
+	flex-direction: row-reverse;
+}
+
+.flexbox.wrap {
+	flex-wrap: wrap;
+}
+
+.flexbox.sh-0 {
+	flex-shrink: 0;
+}
+
+.flexbox.jc-s {
+	justify-content: flex-start;
+}
+
+.flexbox.jc-c {
+	justify-content: center;
+}
+
+.flexbox.jc-e {
+	justify-content: flex-end;
+}
+
+.flexbox.ai-s {
+	align-items: flex-start
+}
+
+.flexbox.ai-c {
+	align-items: center
+}
+
+.flexbox.ai-e {
+	align-items: flex-end;
+}
+
+.flexbox > .grow-1 {
+	flex-grow: 1;
+}
+
+.flexbox > .grow-2 {
+	flex-grow: 2;
+}
+
+.flexbox > .grow-3 {
+	flex-grow: 3;
+}
+
+
+.gf-area {
+	height: 10rem;
+	background-color: red;
+}
+
+.sf-area {
+	height: 10rem;
+	background-color: blue;
+}
